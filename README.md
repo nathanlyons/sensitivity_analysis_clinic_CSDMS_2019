@@ -93,7 +93,7 @@ For more information about conda environments check out the <a href="https://con
 
 Follow these steps to install the clinic environment: 
 
-1. Download the environment file: [https://docs.google.com/uc?export=download&id=1KD-XJtHATu20GAMCen46RIaVwKQ4IOjn](https://docs.google.com/uc?export=download&id=1KD-XJtHATu20GAMCen46RIaVwKQ4IOjn)
+1. Download the environment file: [https://docs.google.com/uc?export=download&id=1_Bqui1JcHPyKs6fUbuKk0jEO4G7XYnsi](https://docs.google.com/uc?export=download&id=1_Bqui1JcHPyKs6fUbuKk0jEO4G7XYnsi)
 2. Open the terminal on your computer (i.e. `Anaconda Prompt` on Windows or `Terminal` on a Mac/Linux).
 4. In the terminal, navigate to the folder containing `enviroment.yml` that you downloaded in the previous step (e.g. `cd downloads`).
 5. Then, type in the terminal: `conda env create -f environment.yml`. This will only work if you run the command in the directory where you placed the environment.yml file.

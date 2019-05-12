@@ -7,7 +7,7 @@ Interested in which variables influence your model outcome? SALib (Sensitivity A
 
 ## Software 
 
-Software that we will use: [Anaconda](https://www.anaconda.com), [SALib](https://salib.readthedocs.io/en/latest/), [Landlab](http://landlab.github.io/#/), and [Jupyter](https://jupyter.org). The installation instructions below were adapted from [www.earthdatascience.org](www.earthdatascience.org).
+Software that we will use includes [Anaconda](https://www.anaconda.com), [SALib](https://salib.readthedocs.io/en/latest/), [Landlab](http://landlab.github.io/#/), and [Jupyter](https://jupyter.org). The installation instructions below were adapted from [www.earthdatascience.org](www.earthdatascience.org).
 
 ## Clinic repository direct download
 
@@ -15,11 +15,9 @@ Software that we will use: [Anaconda](https://www.anaconda.com), [SALib](https:/
 
 ## Anaconda installation
 
-*under construction*
+We will use the Anaconda Python 3 distribution for this clinic. Anaconda is a distribution of Python that comes with many of the scientific computing packages that we will need, including Jupyter.
 
-We will use the Anaconda Python 3 distribution for this clinic. Anaconda is a distribution of Python that comes with many of the scientific computing package that we will need, including Jupyter.
-
-If you alread have Anaconda, you can skip to step XXX. If you already have Anaconda for Python 2 setup, you do not need to install Anaconda again. We will be working with Python version 3.7 in this clinic, but a Python 3.7 environment can be installed into an Anaconda 2.x distribution. We will create a conda environment with Python 3 later in these instructions.
+If you alread have Anaconda, you can skip to the **Update Conda** section. If you already have Anaconda for Python 2 setup, you do not need to install Anaconda again. We will be working with Python version 3.7 in this clinic, but a Python 3.7 environment can be installed into an Anaconda 2.x distribution. We will create a conda environment with Python 3 later in these instructions.
 
 
 ### Windows
@@ -84,6 +82,17 @@ If you see a list of commands that you can execute, then `Git` has been installe
 Again, if you see a list of commands that you can execute, then Anaconda `Python` has been installed correctly.
 4. Close the `Terminal` by typing `exit`.
 
+## Update Conda
+
+Update Conda itself.
+``bash
+conda update conda
+```
+
+And then
+``bash
+conda update anaconda
+```
 
 ## Create a Conda environment
 

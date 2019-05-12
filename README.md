@@ -17,7 +17,7 @@ Software that we will use includes [Anaconda](https://www.anaconda.com), [SALib]
 
 We will use the Anaconda Python 3 distribution for this clinic. Anaconda is a distribution of Python that comes with many of the scientific computing packages that we will need, including Jupyter.
 
-If you alread have Anaconda, you can skip to the **Update Conda** section. If you already have Anaconda for Python 2 setup, you do not need to install Anaconda again. We will be working with Python version 3.7 in this clinic, but a Python 3.7 environment can be installed into an Anaconda 2.x distribution. We will create a conda environment with Python 3 later in these instructions.
+If you alread have Anaconda, you can skip to the [Update Conda](Update Conda) section. If you already have Anaconda for Python 2 setup, you do not need to install Anaconda again. We will be working with Python version 3.7 in this clinic, but a Python 3.7 environment can be installed into an Anaconda 2.x distribution. We will create a conda environment with Python 3 later in these instructions.
 
 
 ### Windows
@@ -39,12 +39,8 @@ Run the installer by double-clicking on the downloaded file and follow the steps
 
 **Test installation**
 
-1. Search for and open the `Git Bash` program. In this `Terminal` window, type `bash` and hit enter. 
-If you do not get a message back, then `Bash` is available for use. 
-2. Next, type `git` and hit enter. 
-If you see a list of commands that you can execute, then `Git` has been installed correctly. 
-3. Next, type `conda` and hit enter.
-Again, if you see a list of commands that you can execute, then Anaconda `Python` has been installed correctly.
+1. Search for and open the `Anaconda Prompt` program. 
+2. Next, type `conda` and hit enter. If you see a list of commands that you can execute, then Anaconda `Python` has been installed correctly.
 4. Close the `Terminal` by typing `exit`.
 
 
@@ -59,8 +55,7 @@ Again, if you see a list of commands that you can execute, then Anaconda `Python
 **Test installation**
 
 1. Search for and open the Terminal program (found in /Applications/Utilities).
-2. Next, type `conda` and hit enter.
-Again, if you see a list of commands that you can execute, then Anaconda `Python` has been installed correctly.
+2. Next, type `conda` and hit enter. If you see a list of commands that you can execute, then Anaconda `Python` has been installed correctly.
 3. Close the `Terminal` by typing `exit`.
 
 
@@ -72,24 +67,20 @@ Again, if you see a list of commands that you can execute, then Anaconda `Python
 4. If you are unsure about any setting, accept the defaults. You can change them later.
 5. To make the changes take effect, close and then re-open your Terminal window.
 
-
 **Test installation**
-1. Search for and open the Terminal program. In this `Terminal` window, type `bash` and hit enter. 
-If you do not get a message back, then `Bash` is available for use. 
-2. Next, type `git` and hit enter. 
-If you see a list of commands that you can execute, then `Git` has been installed correctly. 
-3. Next, type `conda` and hit enter.
-Again, if you see a list of commands that you can execute, then Anaconda `Python` has been installed correctly.
+1. Search for and open the Terminal program.
+2. Next, type `conda` and hit enter. If you see a list of commands that you can execute, then Anaconda `Python` has been installed correctly.
 4. Close the `Terminal` by typing `exit`.
+
 
 ## Update Conda
 
-Update Conda itself.
+Update Conda itself:
 ```bash
 conda update conda
 ```
 
-And then
+And then:
 ```bash
 conda update anaconda
 ```

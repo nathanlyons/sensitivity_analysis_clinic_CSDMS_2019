@@ -18,7 +18,7 @@ If you alread have Anaconda, you can skip to the **Update Conda** section. You d
 
 ### Windows
 
-**IMPORTANT:** if you already have a `Python` installation on your Windows computer, the settings below will replace it with Anaconda as the default `Python`. If you have questions or concerns about this, please contact your course instructor. 
+**IMPORTANT:** if you already have a `Python` installation on your Windows computer, the settings below will replace it with Anaconda as the default `Python`. Please contact me if you have questions or concerns about this. 
 
 Download the <a href="https://www.anaconda.com/download/#windows" target="_blank">Anaconda installer for Windows</a>. Be sure to download the `Python` 3.7 version! 
 
@@ -37,7 +37,7 @@ Run the installer by double-clicking on the downloaded file and follow the steps
 
 1. Search for and open the `Anaconda Prompt` program. 
 2. Next, type `conda` and hit enter. If you see a list of commands that you can execute, then Anaconda `Python` has been installed correctly.
-4. Close the `Terminal` by typing `exit`.
+3. Close the `Terminal` by typing `exit`.
 
 
 ### Mac

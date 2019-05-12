@@ -94,7 +94,7 @@ For more information about conda environments check out the <a href="https://con
 
 Follow these steps to install the clinic environment: 
 
-1. Download the clinic files: [https://github.com/nathanlyons/sensitivity_analysis_clinic_CSDMS_2019/archive/master.zip](https://github.com/nathanlyons/sensitivity_analysis_clinic_]CSDMS_2019/archive/master.zip)
+1. Download the clinic files: [https://github.com/nathanlyons/sensitivity_analysis_clinic_CSDMS_2019/archive/master.zip](https://github.com/nathanlyons/sensitivity_analysis_clinic_CSDMS_2019/archive/master.zip)
 2. Open the Terminal on your computer (e.g. Git Bash for Windows or Terminal on a Mac/Linux).
 4. In the Terminal, navigate to the `sensitivity_analysis_clinic_CSDMS_2019` directory (e.g. `cd ~`, then `cd /downloads/sensitivity_analysis_clinic_CSDMS_2019`).
 5. Then, type in the Terminal: `conda env create -f environment.yml`

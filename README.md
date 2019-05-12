@@ -1,6 +1,6 @@
 # Model sensitivity analysis using SALib
 
-Clinic at the [CSDMS Annual Meeting 2019](https://csdms.colorado.edu/wiki/Form:Annualmeeting2019)
+Clinic at [CSDMS Annual Meeting 2019](https://csdms.colorado.edu/wiki/Form:Annualmeeting2019)
 
 ## Description
 Interested in which variables influence your model outcome? SALib (Sensitivity Analysis Library) provides commonly used sensitivity analysis methods implemented in a Python programming language package. In this clinic we will use these methods with example models to apportion uncertainty in model output to model variables. We will use models built with the Landlab Earth-surface dynamics framework, but the analyses can be easily adapted for other model software. No prior experience with Landlab or Python is necessary.
@@ -88,17 +88,15 @@ Again, if you see a list of commands that you can execute, then Anaconda `Python
 
 Anaconda allows you to have different environments installed on your computer to access different versions of `Python` and different libraries. Sometimes libraries conflict which causes errors and packages not to work. 
 
-To avoid conflicts, I created an environment specifically for this clinic that contains all of the spatial libraries that you will need.
+To avoid conflicts, I created an environment specifically for this clinic that contains all of the packages that you will need.
 
 For more information about conda environments check out the <a href="https://conda.io/docs/user-guide/tasks/index.html" target="_blank">conda documentation</a>.
 
-To install the earth lab environment, you will need to follow these steps: 
+Follow these steps to install the clinic environment: 
 
-1. Create a folder on your computer for clinic files.
-1. Download the file `environment.yaml. This repository contains a file called `environment.yaml` that is needed for the installation.  (For instructions on forking/cloning repositories, see the section below on **Fork and Clone Github Repository**). 
-2. Copy the `environment.yaml` file into your `earth-analytics` directory using your file manager. You can also copy the file using `Bash` if you prefer (e.g. `cd earth-analytics-python-env`, then `cp environment.yaml ..` to move the file up to the parent directory `earth-analytics`). 
-3. Open the Terminal on your computer (e.g. Git Bash for Windows or Terminal on a Mac/Linux).
-4. In the Terminal, navigate to the `earth-analytics` directory (e.g. `cd ~`, then `cd earth-analytics`).
+1. Download the clinic files: [https://github.com/nathanlyons/sensitivity_analysis_clinic_CSDMS_2019/archive/master.zip](https://github.com/nathanlyons/sensitivity_analysis_clinic_]CSDMS_2019/archive/master.zip)
+2. Open the Terminal on your computer (e.g. Git Bash for Windows or Terminal on a Mac/Linux).
+4. In the Terminal, navigate to the `sensitivity_analysis_clinic_CSDMS_2019` directory (e.g. `cd ~`, then `cd /downloads/sensitivity_analysis_clinic_CSDMS_2019`).
 5. Then, type in the Terminal: `conda env create -f environment.yml`
 
 Note that it takes a bit of time to run this setup, as it needs to download and install each library, and that you need to have internet access for this to run! 

@@ -1,4 +1,4 @@
-name: salib_clinic
+name: sa_clinic
 channels:
   - conda-forge
 

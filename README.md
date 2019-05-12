@@ -85,12 +85,12 @@ Again, if you see a list of commands that you can execute, then Anaconda `Python
 ## Update Conda
 
 Update Conda itself.
-``bash
+```bash
 conda update conda
 ```
 
 And then
-``bash
+```bash
 conda update anaconda
 ```
 
@@ -185,4 +185,4 @@ conda env remove --name myenv
 
 and replace `myenv` with the name of the environment that you want to remove. 
 
-**Remember to never delete your root environment.** 
+**Do not delete your root environment.** 

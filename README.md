@@ -17,7 +17,7 @@ Software that we will use includes [Anaconda](https://www.anaconda.com), [SALib]
 
 We will use the Anaconda Python 3 distribution for this clinic. Anaconda is a distribution of Python that comes with many of the scientific computing packages that we will need, including Jupyter.
 
-If you alread have Anaconda, you can skip to the [Update Conda](## Update Conda) section. If you already have Anaconda for Python 2 setup, you do not need to install Anaconda again. We will be working with Python version 3.7 in this clinic, but a Python 3.7 environment can be installed into an Anaconda 2.x distribution. We will create a conda environment with Python 3 later in these instructions.
+If you alread have Anaconda, you can skip to the **Update Conda** section. Uou do not need to install Anaconda again if you already have Anaconda for Python 2 setup. We will be working with Python version 3 in this clinic, but a Python 3 environment can be installed into an Anaconda 2.x distribution. We will create a conda environment with Python 3 later in these instructions.
 
 
 ### Windows
@@ -102,17 +102,13 @@ Follow these steps to install the clinic environment:
 
 Note that it takes a bit of time to run this setup, as it needs to download and install each library, and that you need to have internet access for this to run! 
 
+You can confirm that the enviroment was created, and that your computer is prepared for the clinic by entering the following command in Terminal (Linux/MacOS) or Anaconda Prompt (Windows):
+```bash
+conda info --env
+```
+The environment `sa-clinic` should be in the list of environments.
+
 Once the environment is installed, **always make sure that the sa-clinic environment is activated** before doing work for this clinic. 
-
-
-### About the Conda Environment
-
-### What is a .yaml File?
-
-When you work with Anaconda, you can create custom lists that tell Anaconda where to install libraries from, and in what order. You can even specify a particular version. You write this list using  <a href="http://yaml.org/" target="_blank">yaml</a>(Yet Another Markup Language). This is an alternative to using `pip` to install `Python` packages.  
-
-In previous steps, you used a custom .yaml list to install all of the `Python` libraries that you will need to complete the lessons in this course. This .yaml list is customized to install libraries from the repositories and in an order that minimizes conflicts. 
-
 
 ## Manage Your Conda Environment
 
@@ -151,7 +147,6 @@ Note that after you restart the Terminal, the sa-clinic environment is no longer
 ### Deactivate a Conda Environment 
 
 You can deactivate a conda environment if needed. Deactivating the environment switches you back to the default environment in the terminal session. 
-
 
 #### Mac and Linux Instructions: 
 

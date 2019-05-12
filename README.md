@@ -17,7 +17,7 @@ Software that we will use includes [Anaconda](https://www.anaconda.com), [SALib]
 
 We will use the Anaconda Python 3 distribution for this clinic. Anaconda is a distribution of Python that comes with many of the scientific computing packages that we will need, including Jupyter.
 
-If you alread have Anaconda, you can skip to the [Update Conda](Update Conda) section. If you already have Anaconda for Python 2 setup, you do not need to install Anaconda again. We will be working with Python version 3.7 in this clinic, but a Python 3.7 environment can be installed into an Anaconda 2.x distribution. We will create a conda environment with Python 3 later in these instructions.
+If you alread have Anaconda, you can skip to the [Update Conda](# Update Conda) section. If you already have Anaconda for Python 2 setup, you do not need to install Anaconda again. We will be working with Python version 3.7 in this clinic, but a Python 3.7 environment can be installed into an Anaconda 2.x distribution. We will create a conda environment with Python 3 later in these instructions.
 
 
 ### Windows

@@ -17,7 +17,7 @@ Search the issues or submit a `new issue` at [https://github.com/nathanlyons/sen
 
 We will use the Anaconda Python 3 distribution for this clinic. Anaconda is a distribution of Python that comes with many of the scientific computing packages that we will need, including Jupyter.
 
-If you alread have Anaconda, you can skip to the **Update Conda** section. You do not need to install Anaconda again if you already have Anaconda for Python 2 setup. We will be working with Python version 3 in this clinic, but a Python 3 environment can be installed into an Anaconda 2.x distribution. We will create a conda environment with Python 3 later in these instructions.
+If you alread have Anaconda, you can skip to the **Create a Conda environment** section. You do not need to install Anaconda again if you already have Anaconda for Python 2 setup. We will be working with Python version 3 in this clinic, but a Python 3 environment can be installed into an Anaconda 2.x distribution. We will create a conda environment with Python 3 later in these instructions.
 
 
 ### Windows
@@ -46,7 +46,7 @@ Run the installer by double-clicking on the downloaded file and follow the steps
 
 ### Mac
 
-1. Download the installer: <a href="https://www.anaconda.com/download/" target="_blank">Anaconda installer for Mac</a>. Be sure to download the `Python` 3.x version!
+1. Download the installer: <a href="https://www.anaconda.com/download/" target="_blank">Anaconda installer for Mac</a>. Be sure to download the `Python` 3.7 version!
 2. Install: Anaconda—Double-click the .pkg file.
 3. Follow the prompts on the installer screens.
 4. If you are unsure about any setting, accept the defaults. You can change them later.
@@ -73,9 +73,9 @@ Run the installer by double-clicking on the downloaded file and follow the steps
 4. Close the `Terminal` by typing `exit`.
 
 
-## Update Conda
+## Create a Conda environment
 
-Update Conda itself:
+First, lets update Conda itself:
 ```bash
 conda update conda
 ```
@@ -84,8 +84,6 @@ And then:
 ```bash
 conda update anaconda
 ```
-
-## Create a Conda environment
 
 Anaconda allows you to have different environments installed on your computer to access different versions of `Python` and different libraries. Sometimes libraries conflict which causes errors and packages not to work. 
 

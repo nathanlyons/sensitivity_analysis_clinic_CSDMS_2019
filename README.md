@@ -9,6 +9,10 @@ Interested in which variables influence your model outcome? SALib (Sensitivity A
 
 Software that we will use: [Anaconda](https://www.anaconda.com), [SALib](https://salib.readthedocs.io/en/latest/), [Landlab](http://landlab.github.io/#/), and [Jupyter](https://jupyter.org). The installation instructions below were adapted from [www.earthdatascience.org](www.earthdatascience.org).
 
+## Clinic repository direct download
+
+[https://github.com/nathanlyons/sensitivity_analysis_clinic_CSDMS_2019/archive/master.zip](https://github.com/nathanlyons/sensitivity_analysis_clinic_CSDMS_2019/archive/master.zip)
+
 ## Anaconda installation
 
 *under construction*
@@ -96,7 +100,7 @@ Follow these steps to install the clinic environment:
 
 1. Download the clinic files: [https://github.com/nathanlyons/sensitivity_analysis_clinic_CSDMS_2019/archive/master.zip](https://github.com/nathanlyons/sensitivity_analysis_clinic_CSDMS_2019/archive/master.zip)
 2. Open the Terminal on your computer (e.g. Git Bash for Windows or Terminal on a Mac/Linux).
-4. In the Terminal, navigate to the `sensitivity_analysis_clinic_CSDMS_2019` directory (e.g. `cd ~`, then `cd /downloads/sensitivity_analysis_clinic_CSDMS_2019`).
+4. In the Terminal, navigate to the `sensitivity_analysis_clinic_CSDMS_2019` directory (e.g. `cd ~`, then `cd /downloads/sensitivity_analysis_clinic_CSDMS_2019-master`).
 5. Then, type in the Terminal: `conda env create -f environment.yml`
 
 Note that it takes a bit of time to run this setup, as it needs to download and install each library, and that you need to have internet access for this to run! 
@@ -135,7 +139,7 @@ conda info --envs
 
 If you want to `Jupyter Notebook` to use a particular environment that you have setup on your computer, you need to activate it. 
 
-For example, if a `Python` package such as `geopandas` is only installed in the earth-analytics-python environment, and not the default anaconda environment, you will not be able to import it to `Jupyter Notebook`, unless you have the earth-analytics-python environment activated.
+For example, if a `Python` package such as `geopandas` is only installed in the sa-clinic environment, and not the default anaconda environment, you will not be able to import it to `Jupyter Notebook`, unless you have the earth-analytics-python environment activated.
 
 
 ### Activate a Conda Environment

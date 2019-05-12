@@ -9,15 +9,11 @@ Interested in which variables influence your model outcome? SALib (Sensitivity A
 
 Software that we will use includes [Anaconda](https://www.anaconda.com), [SALib](https://salib.readthedocs.io/en/latest/), [Landlab](http://landlab.github.io/#/), and [Jupyter](https://jupyter.org). The installation instructions below were adapted from [www.earthdatascience.org](www.earthdatascience.org).
 
-## Clinic repository direct download
-
-[https://github.com/nathanlyons/sensitivity_analysis_clinic_CSDMS_2019/archive/master.zip](https://github.com/nathanlyons/sensitivity_analysis_clinic_CSDMS_2019/archive/master.zip)
-
 ## Anaconda installation
 
 We will use the Anaconda Python 3 distribution for this clinic. Anaconda is a distribution of Python that comes with many of the scientific computing packages that we will need, including Jupyter.
 
-If you alread have Anaconda, you can skip to the **Update Conda** section. Uou do not need to install Anaconda again if you already have Anaconda for Python 2 setup. We will be working with Python version 3 in this clinic, but a Python 3 environment can be installed into an Anaconda 2.x distribution. We will create a conda environment with Python 3 later in these instructions.
+If you alread have Anaconda, you can skip to the **Update Conda** section. You do not need to install Anaconda again if you already have Anaconda for Python 2 setup. We will be working with Python version 3 in this clinic, but a Python 3 environment can be installed into an Anaconda 2.x distribution. We will create a conda environment with Python 3 later in these instructions.
 
 
 ### Windows

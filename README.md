@@ -11,7 +11,7 @@ Software that we will use includes [Anaconda](https://www.anaconda.com), [SALib]
 
 ## Get help
 
-Submit a `new issue` at [https://github.com/nathanlyons/sensitivity_analysis_clinic_CSDMS_2019/issues](https://github.com/nathanlyons/sensitivity_analysis_clinic_CSDMS_2019/issues).
+Search the issues or submit a `new issue` at [https://github.com/nathanlyons/sensitivity_analysis_clinic_CSDMS_2019/issues](https://github.com/nathanlyons/sensitivity_analysis_clinic_CSDMS_2019/issues).
 
 ## Anaconda installation
 

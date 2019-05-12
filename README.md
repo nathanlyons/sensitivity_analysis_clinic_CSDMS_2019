@@ -43,13 +43,10 @@ Run the installer by double-clicking on the downloaded file and follow the steps
 
 1. Search for and open the `Git Bash` program. In this `Terminal` window, type `bash` and hit enter. 
 If you do not get a message back, then `Bash` is available for use. 
-
 2. Next, type `git` and hit enter. 
 If you see a list of commands that you can execute, then `Git` has been installed correctly. 
-
 3. Next, type `conda` and hit enter.
 Again, if you see a list of commands that you can execute, then Anaconda `Python` has been installed correctly.
-
 4. Close the `Terminal` by typing `exit`.
 
 
@@ -99,17 +96,13 @@ For more information about conda environments check out the <a href="https://con
 Follow these steps to install the clinic environment: 
 
 1. Download the environment file: [https://docs.google.com/uc?export=download&id=1KD-XJtHATu20GAMCen46RIaVwKQ4IOjn](https://docs.google.com/uc?export=download&id=1KD-XJtHATu20GAMCen46RIaVwKQ4IOjn)
-2. Open the Terminal on your computer (e.g. Git Bash for Windows or Terminal on a Mac/Linux).
-4. In the Terminal, navigate to the folder containing `enviroment.yml` that you downloaded in the previous step (e.g. `cd /downloads`).
-5. Then, type in the Terminal: `conda env create -f environment.yml`
+2. Open the Terminal on your computer (i.e. `Anaconda Prompt` on Windows or `Terminal` on a Mac/Linux).
+4. In the Terminal, navigate to the folder containing `enviroment.yml` that you downloaded in the previous step (e.g. `cd downloads`).
+5. Then, type in the Terminal: `conda env create -f environment.yml`. This will only work if you run the command in the directory where you placed the environment.yml file.
 
 Note that it takes a bit of time to run this setup, as it needs to download and install each library, and that you need to have internet access for this to run! 
 
-The instructions above will only work if you run them in the directory where you placed the environment.yml file.
-
 Once the environment is installed, **always make sure that the sa-clinic environment is activated** before doing work for this clinic. 
-
-See the instructions further down on this page to **Activate a Conda Environment**. Once the environment is activated, the name of the activated environment will appear in parentheses on the left side of your terminal. 
 
 
 ### About the Conda Environment
@@ -119,8 +112,6 @@ See the instructions further down on this page to **Activate a Conda Environment
 When you work with Anaconda, you can create custom lists that tell Anaconda where to install libraries from, and in what order. You can even specify a particular version. You write this list using  <a href="http://yaml.org/" target="_blank">yaml</a>(Yet Another Markup Language). This is an alternative to using `pip` to install `Python` packages.  
 
 In previous steps, you used a custom .yaml list to install all of the `Python` libraries that you will need to complete the lessons in this course. This .yaml list is customized to install libraries from the repositories and in an order that minimizes conflicts. 
-
-If you run into any issues installing the environment from the yaml, let me know! 
 
 
 ## Manage Your Conda Environment
@@ -132,56 +123,46 @@ You can have different `Python` environments on your computer. Anaconda allows y
 You can see a list of all installed conda environments by typing:
 
 ```bash
-
-conda info --envs
-
+conda info --env
 ```
-
-If you want to `Jupyter Notebook` to use a particular environment that you have setup on your computer, you need to activate it. 
-
-For example, if a `Python` package such as `geopandas` is only installed in the sa-clinic environment, and not the default anaconda environment, you will not be able to import it to `Jupyter Notebook`, unless you have the earth-analytics-python environment activated.
-
 
 ### Activate a Conda Environment
 
-**To activate an environment**, use the Terminal to navigate to your earth-analytics directory (e.g. `cd` to the directory). Then, type the following command to activate the environment (e.g. earth-analytics-python):
+**To activate an environment**, use the Terminal to navigate to your earth-analytics directory (e.g. `cd` to the directory). Then, type the following command to activate the environment (e.g. sa-clinic):
 
 ```bash
-conda activate earth-analytics-python
+conda activate sa-clinic
 ``` 
 
 <a href="https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html" target="_blank">For older installations of Anaconda (versions prior to 4.6)</a> on Mac, Linux, and Git Bash for Windows, type:
 
 ```bash
-source activate earth-analytics-python
+source activate sa-clinic
 ```
 
-<i class="fa fa-exclamation-circle" aria-hidden="true"></i> **Windows Users:** The lessons on this website assume that Windows users are using Git Bash as their primary terminal. If you need to activate a conda environment using the Command Prompt, you will need to use the following command: `activate earth-analytics-python`
-{: .notice--success}
+**Windows Users:** The lessons on this website assume that Windows users are using `Anaconda Prompt` as their primary terminal. If you need to activate a conda environment using the Command Prompt, you will need to use the following command: `activate sa-clinic`
 
 Once the environment is activated, the name of the activated environment will appear in parentheses on the left side of your terminal. 
 
-<i class="fa fa-star"></i> **Data Tip:**
-Note that after you restart the Terminal, the earth-analytics-python environment is no longer active. You will need to activate the earth-analytics-python environment each time you start the Terminal by running the appropriate command provided above for your operating system. 
-{: .notice--success }
+**Data Tip:**
+Note that after you restart the Terminal, the sa-clinic environment is no longer active. You will need to activate the sa-clinic environment each time you start the Terminal by running the appropriate command provided above for your operating system.
 
 
 ### Deactivate a Conda Environment 
 
-If needed, you can deactivate a conda environment. Deactivating the environment switches you back to the default environment in your computer. 
+You can deactivate a conda environment if needed. Deactivating the environment switches you back to the default environment in the terminal session. 
 
 
 #### Mac and Linux Instructions: 
 
 ```bash
-Source deactivate earth-analytics-python
-
+Source deactivate sa-clinic
 ```
 
 #### Windows Instructions 
 
 ```bash
-deactivate earth-analytics-python
+deactivate sa-clinic
 
 ```
 

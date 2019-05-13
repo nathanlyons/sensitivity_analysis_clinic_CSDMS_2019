@@ -7,7 +7,7 @@ Interested in which variables influence your model outcome? SALib (Sensitivity A
 
 ## Software 
 
-Software that we will use includes [Anaconda](https://www.anaconda.com), [SALib](https://salib.readthedocs.io/en/latest/), [Landlab](http://landlab.github.io/#/), and [Jupyter](https://jupyter.org). The installation instructions below were adapted from [www.earthdatascience.org](www.earthdatascience.org).
+Software that we will use includes [Anaconda](https://www.anaconda.com), [SALib](https://salib.readthedocs.io/en/latest/), [Landlab](http://landlab.github.io/#/), and [Jupyter](https://jupyter.org). The installation instructions below were adapted from [www.earthdatascience.org](https://www.earthdatascience.org).
 
 ## Get help
 

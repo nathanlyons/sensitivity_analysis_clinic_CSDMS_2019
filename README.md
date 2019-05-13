@@ -24,7 +24,7 @@ If you alread have Anaconda, you can skip to the **Create a Conda environment** 
 
 **IMPORTANT:** if you already have a `Python` installation on your Windows computer, the settings below will replace it with Anaconda as the default `Python`. Please contact me if you have questions or concerns about this. 
 
-Download the <a href="https://www.anaconda.com/download/#windows" target="_blank">Anaconda installer for Windows</a>. Be sure to download the `Python` 3.7 version! 
+Download the <a href="https://www.anaconda.com/download/" target="_blank">Anaconda installer</a> for Windows. Be sure to download the `Python` 3.7 version! 
 
 Run the installer by double-clicking on the downloaded file and follow the steps bellow:
 1. Click “Run”. 
@@ -46,7 +46,7 @@ Run the installer by double-clicking on the downloaded file and follow the steps
 
 ### Mac
 
-1. Download the installer: <a href="https://www.anaconda.com/download/" target="_blank">Anaconda installer for Mac</a>. Be sure to download the `Python` 3.7 version!
+1. Download the installer: <a href="https://www.anaconda.com/download/" target="_blank">Anaconda installer</a> for Mac. Be sure to download the `Python` 3.7 version!
 2. Install: Anaconda—Double-click the .pkg file.
 3. Follow the prompts on the installer screens.
 4. If you are unsure about any setting, accept the defaults. You can change them later.
@@ -61,7 +61,7 @@ Run the installer by double-clicking on the downloaded file and follow the steps
 
 ### Linux
 
-1. Download the installer: <a href="https://www.anaconda.com/download/" target="_blank">Anaconda installer for Linux</a>. Be sure to download the `Python` 3.7 version!
+1. Download the installer: <a href="https://www.anaconda.com/download/" target="_blank">Anaconda installer</a> for Linux. Be sure to download the `Python` 3.7 version!
 2. In your Terminal window, run: `bash Anaconda-latest-Linux-x86_64.sh`
 3. Follow the prompts on the installer screens.
 4. If you are unsure about any setting, accept the defaults. You can change them later.

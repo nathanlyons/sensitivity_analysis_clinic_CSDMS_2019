@@ -89,7 +89,7 @@ Anaconda allows you to have different environments installed on your computer to
 
 To avoid conflicts, I created an environment specifically for this clinic that contains all of the packages that you will need.
 
-For more information about conda environments check out the <a href="https://conda.io/docs/user-guide/tasks/index.html" target="_blank">conda documentation</a>.
+For more information about conda environments check out the <a href="https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html" target="_blank">conda documentation</a>.
 
 **Follow these steps to install the clinic environment:**
 

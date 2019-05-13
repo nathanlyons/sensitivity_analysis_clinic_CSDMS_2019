@@ -91,7 +91,7 @@ To avoid conflicts, I created an environment specifically for this clinic that c
 
 For more information about conda environments check out the <a href="https://conda.io/docs/user-guide/tasks/index.html" target="_blank">conda documentation</a>.
 
-Follow these steps to install the clinic environment: 
+**Follow these steps to install the clinic environment:**
 
 1. Download the environment file: [https://docs.google.com/uc?export=download&id=1_Bqui1JcHPyKs6fUbuKk0jEO4G7XYnsi](https://docs.google.com/uc?export=download&id=1_Bqui1JcHPyKs6fUbuKk0jEO4G7XYnsi)
 2. Open the terminal on your computer (i.e. `Anaconda Prompt` on Windows or `Terminal` on a Mac/Linux).

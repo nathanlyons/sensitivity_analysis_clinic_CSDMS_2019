@@ -9,6 +9,8 @@ Interested in which variables influence your model outcome? SALib (Sensitivity A
 
 Software that we will use includes [Anaconda](https://www.anaconda.com), [SALib](https://salib.readthedocs.io/en/latest/), [Landlab](http://landlab.github.io/#/), and [Jupyter](https://jupyter.org). The installation instructions below were adapted from [www.earthdatascience.org](https://www.earthdatascience.org).
 
+Using SALib for sensitivity analyses in general is the focus of this clinic. Additionally, Landlab will be minimally introduced in order to demonstrate how SALib can be used with model results. If you wish to learn more about Landlab in a video before or after the clinic, see this overview: [https://csdms.colorado.edu/wiki/Presenters-0407](https://csdms.colorado.edu/wiki/Presenters-0407).
+
 ## Get help
 
 Search the issues or submit a `new issue` at [https://github.com/nathanlyons/sensitivity_analysis_clinic_CSDMS_2019/issues](https://github.com/nathanlyons/sensitivity_analysis_clinic_CSDMS_2019/issues).

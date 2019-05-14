@@ -17,8 +17,7 @@ Search the issues or submit a `new issue` at [https://github.com/nathanlyons/sen
 
 We will use the Anaconda Python 3 distribution for this clinic. Anaconda is a distribution of Python that comes with many of the scientific computing packages that we will need, including Jupyter.
 
-If you alread have Anaconda, you can skip to the **Create a Conda environment** section. You do not need to install Anaconda again if you already have Anaconda for Python 2 setup. We will be working with Python version 3 in this clinic, but a Python 3 environment can be installed into an Anaconda 2.x distribution. We will create a conda environment with Python 3 later in these instructions.
-
+If you already have Anaconda, verify that you have the 64-bit version of conda installed, and then you can skip to the **Create a Conda environment** section. You do not need to install Anaconda again if you already have Anaconda for Python 2 setup (although 64-bit Anaconda is required, contact me if you need further explanation). We will be working with Python version 3 in this clinic, but a Python 3 environment can be installed into an Anaconda 2.x distribution. We will create a conda environment with Python 3 later in these instructions.
 
 ### Windows
 

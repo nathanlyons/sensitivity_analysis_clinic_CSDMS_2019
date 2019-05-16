@@ -5,6 +5,10 @@ Clinic at [CSDMS Annual Meeting 2019](https://csdms.colorado.edu/wiki/Form:Annua
 ## Description
 Interested in which variables influence your model outcome? SALib (Sensitivity Analysis Library) provides commonly used sensitivity analysis methods implemented in a Python programming language package. In this clinic we will use these methods with example models to apportion uncertainty in model output to model variables. We will use models built with the Landlab Earth-surface dynamics framework, but the analyses can be easily adapted for other model software. No prior experience with Landlab or Python is necessary.
 
+## Clinic preperation
+
+Please prepare your computer for the clinic by completing the sections,**Software installation** and **Create a conda environment**.
+
 ## Software 
 
 Software that we will use includes [Anaconda](https://www.anaconda.com), [SALib](https://salib.readthedocs.io/en/latest/), [Landlab](http://landlab.github.io/#/), and [Jupyter](https://jupyter.org). The installation instructions below were adapted from [www.earthdatascience.org](https://www.earthdatascience.org).

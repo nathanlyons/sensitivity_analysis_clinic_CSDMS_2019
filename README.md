@@ -86,11 +86,7 @@ And then:
 conda update anaconda
 ```
 
-Anaconda allows you to have different environments installed on your computer to access different versions of `Python` and different libraries. Sometimes libraries conflict which causes errors and packages not to work. 
-
-To avoid conflicts, I created an environment specifically for this clinic that contains all of the packages that you will need.
-
-For more information about conda environments check out the <a href="https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html" target="_blank">conda documentation</a>.
+To avoid software conflicts, I created an environment specifically for this clinic that contains all of the packages that you will need.
 
 **Follow these steps to install the clinic environment:**
 
@@ -107,9 +103,17 @@ conda info --env
 ```
 The environment `sa-clinic` should be in the list of environments.
 
-Once the environment is installed, **always make sure that the sa-clinic environment is activated** before doing work for this clinic. 
+**Your computer is now ready for the clinic. See you there.**
+
+### About conda environments
+
+Anaconda allows you to have different environments installed on your computer to access different versions of `Python` and different libraries. Sometimes libraries conflict which causes errors and packages not to work. 
+
+For more information about conda environments check out the <a href="https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html" target="_blank">conda documentation</a>.
 
 ## Manage Your Conda Environment
+
+**Always make sure that the sa-clinic environment is activated** before doing work for this clinic. 
 
 You can have different `Python` environments on your computer. Anaconda allows you to easily jump between environments using a set of commands that you run in your terminal. 
 

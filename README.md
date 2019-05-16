@@ -107,7 +107,7 @@ conda info --env
 ```
 The environment `sa-clinic` should be in the list of environments.
 
-**Your computer is now ready for the clinic. See you there.**
+**Your computer is now ready for the clinic.**
 
 ### About conda environments
 
